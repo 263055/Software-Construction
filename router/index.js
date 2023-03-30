@@ -1,10 +1,10 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import {createRouter, createWebHashHistory} from 'vue-router'
 
 import Index from '../src/pages/Index.vue'
-import As from '../src/pages/As.vue'
-import Md from '../src/pages/Md.vue'
-import Ca from '../src/pages/Ca.vue'
-import Cm from '../src/pages/Cm.vue'
+import As from '../src/pages/Add-Sub/Add-Sub.vue'
+import Md from '../src/pages/Mul-Div/Mul-Div.vue'
+import Ca from '../src/pages/M-Add/M-Add.vue'
+import Cm from '../src/pages/M-Sub/M-Sub.vue'
 
 const routes = [{
     path: "/",

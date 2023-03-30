@@ -1,10 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-import Index from '../pages/Index.vue'
-import As from '../pages/As.vue'
-import Md from '../pages/Md.vue'
-import Ca from '../pages/Ca.vue'
-import Cm from '../pages/Cm.vue'
+import Index from '../src/pages/Index.vue'
+import As from '../src/pages/As.vue'
+import Md from '../src/pages/Md.vue'
+import Ca from '../src/pages/Ca.vue'
+import Cm from '../src/pages/Cm.vue'
 
 const routes = [{
     path: "/",
@@ -19,29 +19,29 @@ const routes = [{
         }
     }
 },
-{ 
-    path: '/home', 
-    name: 'home', 
+{
+    path: '/home',
+    name: 'home',
     component: Index,
 },
-{ 
-    path: '/as', 
-    name: 'as', 
+{
+    path: '/as',
+    name: 'as',
     component: As,
 },
-{ 
-    path: '/md', 
-    name: 'md', 
+{
+    path: '/md',
+    name: 'md',
     component: Md,
 },
-{ 
-    path: '/ca', 
-    name: 'ca', 
+{
+    path: '/ca',
+    name: 'ca',
     component: Ca,
 },
-{ 
-    path: '/cm', 
-    name: 'cm', 
+{
+    path: '/cm',
+    name: 'cm',
     component: Cm,
 },
 ]
